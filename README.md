@@ -1,4 +1,4 @@
-# Mood Prediction/Classification of Music Using      Mel-Spectrogram Based CNN
+# Mood Prediction/Classification of Music                 Using Mel-Spectrogram Based CNN
 C. Lo-Badal Burch
 
 
