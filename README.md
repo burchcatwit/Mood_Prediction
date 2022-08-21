@@ -27,11 +27,14 @@ The dataset was built using the [create_dataset notebook](https://github.com/bur
 </p>
 
 ## Conclusion
-
+Currently, there seems to be something off with the model because it does not seem to be learning. Upon checking some prediction results, it may be simply learning to guess the highest likelyhood class. The best model, however, would not have reached a 41% accuracy doing this (it would have been much closer to 0.33). This is not satisfactory, so I will be testing this further.
 
 ## Limitations
-
+Upon looking into othe rsimilar models, perhaps this classification problem is extra tricky to solve, given the nature of Mel-Spectrograms. The model may also be struggling with plot borders etc. which are still part of the images used (perhaps data augmentation can fix this). There is also not too much data to begin with, which is another reason why data augmentation could help, but the model should be performing a bit better than currently to begin with.
 
 ## Next Steps
+- Augment images to offset small dataset size
+- Compare results to audio feature based NN (see above)
+- Try building a time series classification model with the mp3 previews
 
 
